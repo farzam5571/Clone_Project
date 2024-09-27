@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/pg..jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 116vh;
+    position: relative;
+}
+
+.main .box {
+    height: 116vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 81vw;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 144px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    /* font-family: "Martel Sans", sans-serif; */
+    height: calc(100% - 92px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    /* gap: 23px; */
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.hero> :nth-child(2) {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 900;
+    font-size: 20px;
+    /* margin: 18px; */
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(51, 50, 50);
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 8px 30px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    /* background-color: white; */
+    background-color: rgba(23, 23, 23, 0.3);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red {
+    background-color: rgb(212, 0, 0);
+    color: white;
+    padding: 12px 34px;
+    font-size: 22px;
+    border-radius: 6px;
+}
+.btn-red:hover{
+    background-color: rgb(148, 0, 0);
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero svg{
+    margin: 0px -15px -4px 5px;
+}
+
+.main input {
+    color: white;
+    padding: 18px 240px 15px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 900;
+    background-color: rgba(23, 23, 23, 0.3);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red-sm {
+    background-color: rgb(218, 0, 0);
+    color: white;
+    padding: 9px 16px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.btn-red-sm:hover{
+    background-color: rgb(155, 0, 0);
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+}
+
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    /* left: 130px; */
+}
+
+.secImg video{
+    position: absolute;
+    top: 30px;
+    /* left: 130px; */
+    right: 0;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.first > div :nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section.first > div :nth-child(2){
+    font-size: 18px;
+}
+
+.FAQ h2{
+    margin: 10px 112px;
+    font-size: 30px;
+}
+
+.FAQ{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.FAQbox:hover{
+    background-color: rgb(83, 83, 83);
+}
+
+.FAQbox{
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    background-color: #3c3a3a;
+    padding: 24px;
+    max-width: 80vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.foot> :nth-child(1) {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    margin: 18px 0;
+}
+
+footer .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+footer .btn-red2 {
+    background-color: rgb(212, 0, 0);
+    color: white;
+    padding: 12px 34px;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+footer input {
+    color: white;
+    padding: 18px 240px 15px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 900;
+    background-color: rgba(23, 23, 23, 0.3);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+footer{
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding: 34px;
+}
+
+footer .question{
+    font-size: 18px;
+    color: rgb(190, 186, 186);
+    padding: 39px 0px;
+    /* gap: 12px; */
+}
+
+footer .question a{
+    color: rgb(190, 186, 186);
+}
+
+footer .question a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footer a{
+    font-size: 15px;
+    color: rgb(190, 186, 186);
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
